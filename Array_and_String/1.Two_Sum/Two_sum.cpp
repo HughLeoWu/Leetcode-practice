@@ -1,14 +1,17 @@
+/*
+ follow up, to use hashmap and record the current diff to the key, and the index is value
+ ex: target = 9, nums = [2,7,11,15]
+     hashmap = {7 = 0; 2 = 1; ...}
+     when we check the element in the hashmap, nums[1] = 7, and "7" is in the hashmap of index 0
+     so, we can make sure the result is "[hasmap[nums[index], index]]" 
+*/
+
 #include <iostream>
 #include <vector>
 #include <unordered_map>
 
 using namespace std;
-
-// follow up, to use hashmap and record the current diff to the key, and the index is value
-// ex: target = 9, nums = [2,7,11,15]
-//     hashmap = {7 = 0; 2 = 1; ...}
-//     when we check the element in the hashmap, nums[1] = 7, and "7" is in the hashmap of index 0
-//     so, we can make sure the result is "[hasmap[nums[index], index]]"        
+       
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
