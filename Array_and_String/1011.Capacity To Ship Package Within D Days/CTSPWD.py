@@ -1,7 +1,7 @@
 # to find out the maximum weight borader ex: [1,2,3,4,5,...,10], 
 # so the maximum is sumation of these weights = 55
 # and the minmum of 1 days is the maximun of weights = 10
-# if weights = 10, it needs 7 days to transmitted these packages, (1,2,3,4);(5);(6);(7);(8);(9);(10)
+# if weights = 10, it needs 7 days to transmit these packages, (1,2,3,4);(5);(6);(7);(8);(9);(10)
 #    weights = 11,          6 days -> (1,2,3,4);(5,6);(7);(8);(9);(10)
 #            = 55           1 day (1,2,3,4,5,6,7,8,9,10)
 # [10,11,12,... 55] -> weights of array
