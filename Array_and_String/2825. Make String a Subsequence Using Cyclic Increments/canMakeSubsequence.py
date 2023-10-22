@@ -1,7 +1,7 @@
 # str1 = "abc" str2 = "ad" 
 # two pointer (i, j)
 #        "a"          "a" -> (i, j) += 1
-#        "b" can be "b" or "c", but str2 = "d", it can mapping this character, so move forward str1 only i +=1
+#        "b" can be "b" or "c", but str2 = "d", it can't mapping this character, so move forward str1 only i +=1
 #        "c": "c" or "d"  -> (i, j) += 1
 # so if j equal to the length of str2, it means that it can make subsequence from str1.
 # one more thing: 
