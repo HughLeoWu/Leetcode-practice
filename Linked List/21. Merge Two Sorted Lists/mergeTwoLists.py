@@ -10,7 +10,9 @@
  ans = -1 -> 1 (l1) if l1->val <= l2->val
      = -1 -> 1 -> 1 (l2) if l1->val > l2->val
        -1 -> 1 -> 1 -> 2, if l1->val <= l2->val (2 < 3)
-       -1 -> 1 -> 1 -> 2 -> 3 -> 4 -> 4 if(l1 == NULL) ans->next = l2;    
+       -1 -> 1 -> 1 -> 2 -> 3 -> 4 -> 4 if(l1 == NULL) ans->next = l2;
+time complexity O(m + n)
+space complexity O(1)
 '''
 class Solution:
     def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
