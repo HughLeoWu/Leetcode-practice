@@ -38,10 +38,10 @@ public:
 
 int main() {
     Solution DoS;
-    vector<int> weights ({1,2,3,4,5,6,7,8,9,10});
+    vector<int> weights = {1,2,3,4,5,6,7,8,9,10};
     cout << DoS.shipWithinDays(weights, 5) << endl; // 15
-    vector<int> weights1 ({3,2,2,4,1,4});
+    vector<int> weights1 = {3,2,2,4,1,4};
     cout << DoS.shipWithinDays(weights1, 3) << endl; // 6
-    vector<int> weights2 ({1,2,3,1,1}); 
+    vector<int> weights2 = {1,2,3,1,1}; 
     cout << DoS.shipWithinDays(weights2, 4) << endl; // 3
 }
